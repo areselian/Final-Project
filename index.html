@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<title>QuaranTeam</title>
+	
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+	<!-- Leaflet CSS & JS  -->
+	<!--
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+	integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="	crossorigin=""/>
+	<link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css" />
+	-->
+	<!-- Icons -->
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="static/css/leaflet.extra-markers.min.css">
+
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<!-- Our CSS  -->
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	
+	  
+   
+  
+</head>
+<body>
+ 
+	<header class="blog-header border-bottom shadow-sm"> 
+		 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transp-menu"> 
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+			  <ul class="navbar-nav mr-auto"> 
+				<li class="nav-item">
+				  <a class="btn  btn-danger" href="#">Dashboard</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#theMap"> Analysis</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#lessons">Lessons</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#band">Visuals</a>
+				</li>
+				<li class="nav-item">
+				  <!-- <a class="nav-link" href="#tour">Resources</a> -->
+				</li> 
+			  </ul>
+			 <ul class="navbar-nav ">
+			  <li class="nav-item">
+				 <a class="nav-link" href="https://www.kaggle.com/uciml/breast-cancer-wisconsin-data">DESCRIPTIVE DATASET</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://www.kaggle.com/paultimothymooney/breast-histopathology-images">IMAGES DATASET</a> 
+				</li>
+				</ul>
+			  </form>
+			</div>
+		  </nav> 
+	</header>
+	
+	
+    <main role="main" class="">
+	
+	
+	<section class="space-lg  overflow-hidden breathingMap">
+		<div class="container py-4 mt-5 introBanner">
+			<h1 class='grey	 center mt-5 our-intro-title'>Using Machine Learning in Cancer Diagnosis
+				. QuaranTeam</h1>
+			<a class="btn btn-lg btn-danger " id="introButton" href="#theMap">Approach</a> 
+			
+			
+		</div>
+	</section>
+	
+	
+	<section class="space-lg overflow-hidden" id='theMap'>
+		<div class="container py-4 mt-5">
+			<h1><i>Analysis of Results</i> </h1>
+			<hr class="featurette-divider">
+			
+			<div class="row">
+			  <div class="col">
+			  
+				<div>
+					<section> 
+		
+						<video width="800" controls>
+							<source src="static/video/video.mov" type="video/mp4"> 
+						</video>
+					</section>
+					<br/><br/>
+					
+						
+				</div>  
+					 
+				<br/>
+			  </div>
+			  <div class="col">
+				<h3>Analyzed in Grayscale</h3>
+				<h5>Layer Structure</h5>
+				<ol>
+					<li>1st Layer - 64</li>
+					<li>2nd Layer - 32</li>
+					<li>3rd Layer - 8</li> 
+				</ol>
+				<h5>Number of Epochs - 3</h5>
+				<ol>
+					<li>1st Layer - 64</li>
+					<li>2nd Layer - 32</li>
+					<li>3rd Layer - 8</li> 
+				</ol>
+				
+				<p> 
+ Applied Stochastic Gradient Descent (SGD) to improve our modeling.
+</p>
+<h5>Neural Network</h5>
+<ol>
+					<li>Accuracy: 85.20%</li>
+					<li>Loss: 0.41943401273091635</li> 
+				</ol>
+ 			
+				
+				
+			  </div>
+			</div> 
+			
+						<!-- 1 – Which model is appropriate for my data?
+
+2 – The order in which to set up the model. When should we oversample? At which point does oversampling occur? Should we maintain the 1-0 original balance?
+
+3 – Neural Networks are indeed a black box.
+
+4 – Never trust the description of the data you are downloading. A thorough EDA process can save a lot of time.
+
+5 – More steps do not mean better results.
+
+6 – Run your code through a small sample to prevent running out of memory. -->
+
+	
+	
+			  </div>
+			</div>   
+			
+		</div>
+	</section>
+	
+	<section class="space-lg bg-gradient overflow-hidden" id="lessons">
+		<div class="row">
+			<div class="col">
+				<div class="container py-4 mt-5">
+					<h1 class='white'><i>Lessons Learned</i> </h1>
+					<hr class="featurette-divider">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1" class=""></li>
+						<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+						<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+						<li data-target="#myCarousel" data-slide-to="4" class=""></li>
+						<li data-target="#myCarousel" data-slide-to="5" class=""></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="container">
+								<div class="carousel-caption text-center">
+									<h3>Which model is appropriate for my data?</h3>
+									<p> </p> 
+								</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								 <div class="container">
+								<div class="carousel-caption text-center">
+									<h3>The order in which to set up the model. When should we oversample? At which point does oversampling occur? Should we maintain the 1-0 original balance?</h3>
+									<p> </p>
+									 
+								</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								 <div class="container">
+								<div class="carousel-caption text-center">
+									<h3>Neural Networks are indeed a black box.</h3>
+									<p> </p>
+									 
+								</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								 <div class="container">
+								<div class="carousel-caption text-center">
+									<h3>Never trust the description of the data you are downloading. A thorough EDA process can save a lot of time.</h3>
+									<p> </p>
+									 
+								</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								 <div class="container">
+								<div class="carousel-caption text-center">
+									<h3>More steps do not mean better results.</h3>
+									<p> </p>
+									 
+								</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								 <div class="container">
+								<div class="carousel-caption text-center">
+									<h3>Run your code through a small sample to prevent running out of memory.</h3>
+									<p> </p>
+									 
+								</div>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<section class="space-lg overflow-hidden" id="band">
+		<div class="row">
+			<div class="col">
+				<div class="container marketing mt-5">
+					<h1><i>Visualization </i></h1>
+					<hr class="featurette-divider">
+					<!-- Three columns of text below the carousel -->
+					<div class="row">
+					  <div class="col-lg-3">
+						<div class="text-center">
+							<img src="static/img/1.png" class="img-fluid img-thumbnail rounded" alt="..."> 
+							<h2> </h2> 
+							<p> </p>
+						</div>
+					  </div><!-- /.col-lg-4 -->
+					  <div class="col-lg-3">
+						<div class="text-center">
+							<img src="static/img/2.png" class="img-fluid img-thumbnail rounded" alt="..."> 
+							<h2>  </h2> 
+						</div>
+					  </div><!-- /.col-lg-4 -->
+					  <div class="col-lg-3">
+						<div class="text-center">
+							<img src="static/img/3.png" class="img-fluid img-thumbnail rounded" alt="..."> 
+							<h2> </h2> 
+						</div>
+					  </div><!-- /.col-lg-4 -->
+					  <div class="col-lg-3">
+						<div class="text-center">
+							<img src="static/img/4.png" class="img-fluid img-thumbnail rounded" alt="..."> 
+							<h2> </h2> 
+						</div>
+					  </div><!-- /.col-lg-4 -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<div class="container marketing mt-5" >
+			
+		
+ 
+			<!-- START THE FEATURETTES -->
+			
+			
+	</div>
+ 
+
+			<hr class="featurette-divider">
+ 
+			<!-- /END THE FEATURETTES --> 
+		 
+
+    </main><!-- /.container -->
+
+    <footer class="blog-footer">
+ 
+      <!-- <p>Footer credits</p> -->
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04=" crossorigin="anonymous"></script>
+	
+	<!-- D3 cdn -->
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js" integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04=" crossorigin="anonymous"></script>
+	<!-- 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script> 
+	 
+	 
+	<script type="text/javascript" src="logic.js"></script> -->
+	 
+	
+	<!-- D3 -->
+	<!--
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+-->
+	<!-- MomentJS -->
+	<!--
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+-->
+	<!-- Leaflet JavaScript -->
+		<!--
+	<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+	integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="	crossorigin=""></script>
+-->
+	<!-- Icons -->
+	<!--
+	<script src="static/js/leaflet.extra-markers.min.js"></script>
+-->
+	<!-- polyfill.io is library for using newer JavaScript features in older browers (such as Object.assign) -->
+	<!--
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+-->
+	<!-- API Key -->
+	<!--
+	<script type="text/javascript" src="static/js/config.js"></script>
+-->
+	<!-- Our JavaScript -->
+	<!--
+	<script type="text/javascript" src="static/js/logic.js"></script>
+-->
+
+	
+</body>
+</html>
+
