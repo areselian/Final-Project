@@ -1,0 +1,239 @@
+  
+  body
+  { /* background-image:url('http://4.bp.blogspot.com/-QvY-NnY2Sik/UfaqNSITAwI/AAAAAAAACyc/7-Y2MN2oPlE/s640/BreathingEarth.gif'); */
+     background-repeat:no-repeat;
+     background-size: cover;
+     background-position: center;
+  }
+
+  /* {
+    background-image:url('../img/landing6.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
+  .breathingMap{
+    background-image:url('../img/landing6.1.jpg');  
+       background-repeat:no-repeat;
+       background-size: cover;
+       background-position: center;
+  }
+
+.introBanner{
+	height: 1000px;
+	text-align:right;
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 6rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 18rem; 
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+ 
+div {
+   
+}
+
+.dropdown-toggle{
+  color: #fff;
+    background-color: #343a40;
+    border-color: #f1f1f1;
+}
+.bg-gradient {
+  background: linear-gradient(135deg, #2874a7 0%, #289fa7 100%);
+}
+
+.bg-gradient2 {
+  background: linear-gradient(135deg, #787878 0%, #787878 100%);
+}
+ 
+
+.bg-transp-menu{
+	background-color: #343a4047!important; 
+}
+
+#map  {
+    height: 600px;
+	width: 1110px
+}
+
+.info {
+    padding: 6px 15px;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+ 
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+  background: #035;
+  color: #fff;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: font-family 'Crimson', sans-serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+ 
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+ 
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+ 
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+ 
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #fff;
+  text-align: center;
+  background-color: #ececec;
+  border-top: .05rem solid #e5e5e5; 
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.card-body {
+	overflow : hidden;
+}
+
+button.btn-info {
+	margin: 3px 1px;
+}
+
+.dropdown-item.selected{
+    color: #ff0000; 
+    background-color: #d2d2d2;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+.white{
+	color: white; 
+}
+.our-intro-title{
+	margin-top: 27rem!important;
+}
+.marketing img{
+	height: 160px;
+}
